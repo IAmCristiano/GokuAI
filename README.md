@@ -17,13 +17,13 @@ Ideal e divertido para crianças em fase de aprendizado, e também para adultos 
 
 **Entre em colab.new**
 
-**No código, substitua:**
+**No código, substitua:**<br/>
 import google.generativeai as genai
 from google.colab import userdata
 api_key = userdata.get('SECRET_KEY')
 genai.configure(api_key=api_key)
 
-**Por:**
+**Por:**<br/>
 import google.generativeai as genai
 
 GOOGLE_API_KEY="INSIRA_SUA_API_KEY"
