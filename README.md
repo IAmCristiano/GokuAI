@@ -18,9 +18,9 @@ Ideal e divertido para crianças em fase de aprendizado, e também para adultos 
 **Entre em colab.new**
 
 **No código, substitua:**<br/>
-import google.generativeai as genai
-from google.colab import userdata
-api_key = userdata.get('SECRET_KEY')
+import google.generativeai as genai<br/>
+from google.colab import userdata<br/>
+api_key = userdata.get('SECRET_KEY')<br/>
 genai.configure(api_key=api_key)
 
 **Por:**<br/>
